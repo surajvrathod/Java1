@@ -12,5 +12,6 @@ public class Loops {
             System.out.printf("%d is equals 3",+a);
         else
             System.out.println("It's Default case");
+            System.out.println("It's Default case");
     }
 }
