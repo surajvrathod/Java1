@@ -12,17 +12,33 @@ class Redmi extends PhoneModel{
 
    @Override
     public void switchOn() {
-       System.out.println("Phone switched On");
+       System.out.println("Redmi Phone switched On");
     }
 
     @Override
     public void cameraModule() {
-        System.out.println("Camera Design Implemented");
+        System.out.println("Redmi Camera Design Implemented");
     }
 
     @Override
     public void gsmModule() {
-        System.out.println("GSM module Implemented");
+        System.out.println("Redmi GSM module Implemented");
+    }
+}
+ class Samsung extends PhoneModel{
+    @Override
+    public void switchOn() {
+        System.out.println("Samsung Phone turned on");
+    }
+
+    @Override
+    public void gsmModule() {
+        System.out.println("Samsung GSM module Implemented");
+    }
+
+    @Override
+    public void cameraModule() {
+        System.out.println("Samsung Camera Module Implemented");
     }
 }
 public class AbstractClass {
@@ -34,5 +50,10 @@ public class AbstractClass {
         note3.cameraModule();
         note3.gsmModule();
 
+        Samsung galaxy=new Samsung();
+
+        galaxy.switchOn();
+        galaxy.gsmModule();
+        galaxy.cameraModule();
     }
 }
