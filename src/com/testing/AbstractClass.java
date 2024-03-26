@@ -55,5 +55,11 @@ public class AbstractClass {
         galaxy.switchOn();
         galaxy.gsmModule();
         galaxy.cameraModule();
+
+        PhoneModel note4=new Redmi();//It is possible to create object of abstract class
+        // by referring it to derived class
+        note4.switchOn();
+        note4.cameraModule();
+        note4.gsmModule();
     }
 }
