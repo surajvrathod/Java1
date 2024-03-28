@@ -22,7 +22,9 @@ public class Multithreading {
 
         MyThread1 t1=new MyThread1();
         MyThread2 t2=new MyThread2();
-t1.start();
+
+        t1. run();
+t1.start();//Concurrently attends both the threads. Hence faster execution of methods
 t2.start();
     }
 }
