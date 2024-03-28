@@ -1,33 +1,18 @@
 package com.testing;// User Defined Package for organized group of classes
 
 //Build in Packages or JAVA API
-import java.time.Instant;
-import java.time.ZoneId;
-import java.util.Scanner;
+
 import java.util.Random;
-import java.math.MathContext;
-import java.time.Clock;
-import java.time.MonthDay;
+
+//import java.util.Scanner;
+import java.util.*;//Getting all packages using *
+
+
 public class Packages {
     public static void main(String[] args) {
-       // MonthDay m=new MonthDay(1,2);
-
-        Clock c= new Clock() {
-            @Override
-            public ZoneId getZone() {
-                return null;
-            }
-
-            @Override
-            public Clock withZone(ZoneId zone) {
-                return null;
-            }
-
-            @Override
-            public Instant instant() {
-                return null;
-            }
-        };
-
+       //java.util.Scanner sc=new java.util.Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
+        int a= sc.nextInt();
+        System.out.println("this is packages "+a);
     }
 }

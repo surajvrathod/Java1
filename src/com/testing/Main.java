@@ -14,6 +14,9 @@ public class Main {
                 // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
                 System.out.println("First = " + i);
             }
+            C1 b=new C1();
+            //b.meth1();
+
         }
     }
 
